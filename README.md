@@ -1,32 +1,35 @@
-# To Do List Web Application
-2018 스타트업 인턴십 WINTER CODING 과제 - [웹] - 서교필
+# To Do List Web Application / 2018 Winter Coding
+#### 2018 스타트업 인턴십 윈터 코딩 과제 - [Web] - 서교필
 
+## Webpage URL
+url : http://54.180.88.128:3000  
+## Installation/Build 
+### Server
+>Port : 3001
+directory : ***/react-backend/***
+```
+$ npm install
+$ PORT=3001 npm start
+```
+### Client
+>Port : 3000
+>http://localhost:3000
+directory : ***/react-backend/todolist/***
+```
+npm install
+npm start
+```
+## Environments
+### Server
+> Amazon EC2 (Linux AMI)
+- Node : v10.13.0 LTS
+- Express : v4.16.0
 
+### Client
+- React : v16.6.0
+- Redux : v4.0.1
 
-과제 웹페이지  : http://54.180.88.128:3000/
-
-
-
-Reactjs, Express(Nodejs), MongoDB를 이용하여 To Do ist 웹 애플리케이션을 제작하였습니다.
-Reactjs와 Redux를 이용해 프론트엔드를 구현하고 Express와 Mongoose를 이용한 MongoDB로 백엔드를 구현하였습니다.
-웹 애플리케이션을 AWS EC2를 사용하여 업로드하였으며 데이터베이스는 mLab 웹 서비스를 이용해 운영 중입니다.
-
-
-
-◎설치/빌드 방법(Linux 기준)
-
-nodejs 최신 버전이 설치된 환경이어야합니다.
-
-
-●Express(nodejs) 
-경로 /react-backend/ 에서 터미널을 실행합니다. 
-1. npm install 명령어를 이용하여 npm 모듈을 설치합니다.
-2. PORT=3001 npm start  명령어를 이용하여 Express 서버를 실행합니다.
-
-●React
-경로 /react-backend/todolist/ 에서 터미널을 실행합니다.
-1. npm install 명령어를 이용하여 npm 모듈을 설치합니다.
-2. npm start 명령어를 이용하여 React 웹 애플리케이션을 실행합니다.
-
-로컬에서
-http://localhost:3000/ 으로 접속할 수 있도록 되어있습니다.
+### Database
+> mLab
+- MongoDB : v2.6.1
+- Mongoose : v5.4.8
