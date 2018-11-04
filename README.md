@@ -8,7 +8,8 @@
 
 
 Reactjs, Express(Nodejs), MongoDB를 이용하여 To Do ist 웹 애플리케이션을 제작하였습니다.
-웹 애플리케이션을 AWS EC2를 사용하여 업로드 하였으며 MongoDB는 mLab 웹 서비스를 이용해 운영 중입니다.
+Reactjs와 Redux를 이용해 프론트엔드를 구현하고 Express와 Mongoose를 이용한 MongoDB로 백엔드를 구현하였습니다.
+웹 애플리케이션을 AWS EC2를 사용하여 업로드하였으며 데이터베이스는 mLab 웹 서비스를 이용해 운영 중입니다.
 
 
 
