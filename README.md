@@ -7,7 +7,7 @@ To Do List Web Application
 
 
 
-Reactjs, Express(nodejs), MongoDB를 이용하여 To Do list 웹 애플리케이션을 제작하였습니다.
+Reactjs, Express(nodejs), MongoDB를 이용하여 To Do ist 웹 애플리케이션을 제작하였습니다.
 웹 애플리케이션을 AWS EC2를 사용하여 업로드 하였으며 MongoDB는 mLab 웹 서비스를 이용해 운영 중입니다.
 
 
