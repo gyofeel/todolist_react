@@ -1,5 +1,5 @@
-# 2018 스타트업 인턴십 WINTER CODING 과제 - To Do List Web Application
-[웹] - 
+# To Do List Web Application
+2018 스타트업 인턴십 WINTER CODING 과제 - [웹] - 서교필
 
 
 
