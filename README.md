@@ -18,8 +18,8 @@ $ PORT=3001 npm start
 >http://localhost:3000  
 directory : ***/react-backend/todolist/***
 ```
-npm install
-npm start
+$ npm install
+$ npm start
 ```
   
   
