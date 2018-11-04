@@ -1,0 +1,314 @@
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+margin:0;
+padding:0;
+border:0;
+/* font-size:100%; */
+vertical-align:baseline;
+background:transparent;
+box-sizing:border-box;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+display:block;
+}
+
+nav ul, li{
+list-style:none;
+}
+
+a{
+margin:0;
+padding:0;
+font-size:100%;
+text-decoration:none;
+vertical-align:baseline;
+background:transparent;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color: black;
+}
+
+img{
+vertical-align:top;
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+
+legend{
+  color:white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rgba(66, 66, 66)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App{
+  width:35%;
+  min-width:650px;
+  margin:30px auto 0;
+  padding:20px 10px;
+}
+
+.button{
+  cursor:pointer;
+  border:none;
+  text-decoration: none;
+  padding:5px 10px;
+}
+
+.button.logout, .button.login{
+  color: white;
+  padding:5px 7px;
+  background-color:rgb(32, 178, 170);
+  font-weight:bold;
+  border:1px solid white;
+}
+.button.logout:hover, button.login:hover{
+  background-color:white;
+  color:rgb(32, 178, 170);
+}
+
+.div-head{
+  width:100%;
+  padding:20px;
+  /* border:3px solid black; */
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color:rgb(32, 178, 170);
+  border-radius: 40px 0 40px 0;
+}
+.div-head > h1{
+  font-size:40px;
+  color:white;
+  font-weight: bold;
+}
+.div-head > div{
+  color:white;
+  display: flex;
+  flex-flow:row wrap;
+  align-items: center;
+}
+.div-head > div > p {
+  display:block;
+  padding:10px;
+}
+
+.form-add {
+  position: fixed;
+  width:400px;
+  height:400px;
+  left:50%;
+  top:50%;
+  margin-left:-200px;
+  margin-top:-200px;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: space-around;
+  padding:20px 40px 0;
+  align-items: center;
+  background-color:rgba(32, 178, 170, 1);
+}
+.form-add > h1{
+  padding-bottom:40px;
+  color:white;
+  text-align: left;
+}
+.mat-input.title, .mat-input.content{
+  width:180px;
+}
+.div-radio{
+  margin:10px 0;
+}
+.fieldset-radio > div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.fieldset-radio > div > div{
+  width:20%;
+}
+.div-cancelsubmit{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-top:45px;
+}
+.div-cancelsubmit > button{
+  margin-left:10px;
+}
+.button.cancel, .button.save{
+  color:white;
+  border:1px solid white;
+  background-color:transparent;
+}
+.button.cancel:hover, button.save:hover{
+  background-color:white;
+  color:rgba(32, 178, 170, 1);
+}
+
+.form-login > h1{
+  padding-bottom:15px;
+  color:white;
+}
+.div-due{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: center;
+}
+.mat-input.y{
+  width:30px;
+}
+.mat-input.m, .mat-input.d{
+  width:15px;
+}
+.div-form{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(32, 178, 170, 1);
+}
+.form-login{
+  width:25%;
+  height:250px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-125px 0 0 -12.5%;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color:transparent;
+  border:2px solid white;
+  border-radius:50px 0 50px 0;
+}
+.form-login > h1{
+  padding-bottom:15px;
+  color:white;
+}
+.form-login > legend{
+  padding-bottom:25px;
+  color:white;
+}
+.mat-input{
+  border:none;
+  background-color:rgba(255, 255, 255, 0.7);
+  margin:5px 10px;
+  width:200px;
+  padding:5px 10px;
+  border-radius: 10px;
+}
+.mat-label{
+  color:white;
+  font-size:15px;
+}
+
+.div-body{
+  width:100%;;
+  margin-top:20px;
+  /* display:flex; */
+  /* flex-flow:column nowrap; */
+}
+.data{
+  width:100%;
+  /* !! */
+  height:130px;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items:center;
+  padding:0 10% 0;
+  margin-top:15px;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+.data:hover{
+  /* box-shadow: 3px 3px 5px 1px rgb(50, 50, 50); */
+}
+.data.add{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+  font-size:40px;
+  height:80px;
+  padding-bottom:10px;
+  color:rgba(255, 255, 255, 0.7);
+  background-color:rgba(255, 255, 255, 0.1);
+  font-weight: 1000;
+}
+.data.add:hover{
+  background-color:rgba(32, 178, 170, 0.3);
+}
+.div-titleandcontent{
+  display:flex;
+  flex-flow: column nowrap;
+  height:100%;
+  justify-content: center;
+}
+.div-gradduebutton{
+  display: flex;
+  flex-flow: column nowrap;
+  height:100%;
+  justify-content: space-around;
+  align-items:flex-end
+}
+.div-data-button{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.div-data-button > button{
+  margin-left:10px;
+  background-color:transparent;
+  border:1px solid black;
+}
+.button.delete:hover{
+  color:white;
+  background-color:red;
+  border:1px solid red;
+}
+.button.modify:hover{
+  color:white;
+  background-color:orange;
+  border:1px solid orange;
+}
+.button.complete:hover{
+  color:white;
+  background-color:green;
+  border:1px solid green;
+}
+.div-grade{
+  font-weight:bold;
+  font-size:20px;
+}
+.div-due{
+  border-radius:10px;
+  padding:2px 5px;
+}
+.noData{
+  color:white;
+}
