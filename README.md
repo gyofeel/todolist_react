@@ -1,9 +1,9 @@
 # To Do List Web Application / 2018 Winter Coding
 #### 2018 스타트업 인턴십 윈터 코딩 과제 - [Web] - 서교필
 
-## Webpage URL
+## 1. Webpage URL
 url : http://54.180.88.128:3000  
-## Installation/Build 
+## 2. Installation/Build 
 ### Server
 >Port : 3001
 directory : ***/react-backend/***
@@ -19,7 +19,7 @@ directory : ***/react-backend/todolist/***
 npm install
 npm start
 ```
-## Environments
+## 3. Environments
 ### Server
 > Amazon EC2 (Linux AMI)
 - Node : v10.13.0 LTS
