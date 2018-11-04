@@ -1,4 +1,5 @@
-# todolist_react
+# [웹] - TO DO LIST - 서교필
+2018 스타트업 인턴십 WINTER CODING 과제
 To Do List Web Application
 
 
