@@ -2,23 +2,27 @@
 #### 2018 스타트업 인턴십 윈터 코딩 과제 - [Web] - 서교필
 
 ## 1. Webpage URL
-url : http://54.180.88.128:3000  
+url : http://54.180.88.128:3000
+  
+  
 ## 2. Installation/Build 
 ### Server
->Port : 3001
+>Port : 3001  
 directory : ***/react-backend/***
 ```
 $ npm install
 $ PORT=3001 npm start
 ```
 ### Client
->Port : 3000
->http://localhost:3000
+>Port : 3000  
+>http://localhost:3000  
 directory : ***/react-backend/todolist/***
 ```
 npm install
 npm start
 ```
+  
+  
 ## 3. Environments
 ### Server
 > Amazon EC2 (Linux AMI)
