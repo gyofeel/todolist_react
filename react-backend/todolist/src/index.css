@@ -53,7 +53,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:rgba(66, 66, 66)
+  background-color:rgb(66, 66, 66)
 }
 
 code {
@@ -189,12 +189,12 @@ code {
   background-color:rgba(32, 178, 170, 1);
 }
 .form-login{
-  width:25%;
+  width:320px;
   height:250px;
   position: absolute;
   top:50%;
   left:50%;
-  margin:-125px 0 0 -12.5%;
+  margin:-125px 0 0 -160px;
   display:flex;
   flex-flow:column nowrap;
   justify-content: center;
