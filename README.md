@@ -1,5 +1,5 @@
-# To Do List Web Application / 2018 Winter Coding
-#### 2018 스타트업 인턴십 윈터 코딩 과제 - [Web] - 서교필
+# To Do List Web Application
+[Web] - 서교필
 
 ## 1. Webpage URL
 url : http://54.180.88.128:3000
