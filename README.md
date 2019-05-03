@@ -2,7 +2,7 @@
 [Web] - 서교필
 
 ## 1. Webpage URL
-url : http://54.180.88.128:3000
+url : http://54.180.88.128:3000(now not working)
   
   
 ## 2. Installation/Build 
